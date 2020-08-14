@@ -1,4 +1,4 @@
-# GeneticAlgoritm
+# GeneticAlgorithm
 Assignment for Pattern Recognition displaying an example of how Genetic Algorithm works
 
 Variables: x1, x2, x3 and x4 are binary variables, representing the investment decisions of project 1, 2, 3, and 4. 
