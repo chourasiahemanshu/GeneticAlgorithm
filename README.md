@@ -38,9 +38,13 @@ GeneticAlgorithm.java and Project.java, GeneticAlgorithm.java is the main code t
  
  
 Crossover code:
-In the whole Population, we start by pairing the projects and then randomly checking if crossover would be performed on them or not and gradually moving to the next projects. For crossover a random split point is chosen and the first half of the parent and the second half of the other parent is combined to form the child, Constraints are checked and its fitness value is calculated and if it is more than the previous parents it is included in the current population or else discarded.
+In the whole Population, we start by pairing the projects and then randomly checking if crossover would be performed on them or not and gradually moving to the next projects. 
+
+For crossover a random split point is chosen and the first half of the parent and the second half of the other parent is combined to form the child, Constraints are checked and its fitness value is calculated and if it is more than the previous parents it is included in the current population or else discarded.
+
 Mutation code:
 In the whole population, each member based on probability(5%) is checked if he is going to mutate. If yes, a random integer is selected and its value is flipped. Again constraints are checked and its fitness value is calculated and if it is more than the previous parents it is included in the current population or else discarded.
+
 Stopping Criteria:
 The whole process is repeated for the 80 generations.
 
